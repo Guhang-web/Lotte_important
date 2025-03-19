@@ -1,0 +1,77 @@
+/* header */
+#header .header-gnb .inner li:hover {
+    height: 300px;
+    animation: inner-ani 1s;
+}
+
+#header .header-gnb .inner .tag:hover {
+    color: red;
+}
+
+#header .menu-box .language a:hover {
+    border-bottom: 2px solid red;
+}
+
+#header .menu-box .menu-line:hover .line-up {
+    transform: rotate(45deg);
+    transition: all 1s;
+}
+
+#header .menu-box .menu-line:hover .line-down {
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all 1s;
+}
+
+/* mainBottom*/
+#mainBottom .s1-right .page-btn svg:hover line {
+    stroke: gray;
+}
+
+#mainBottom .s1-right .page-btn .page-c:hover{
+    fill: #fff;
+}
+
+#mainBottom .s1-right .customer svg .page-ca:hover {
+    transform: scale(1.6);
+}
+#mainBottom .s1-right .customer svg:hover text {
+fill: #fff;
+}
+
+/* section2 */
+#section2 .s2-nav .s2-csv li img:hover {
+    transform: scaleX(0.7);
+    border-radius: 100%;
+}
+
+/*  section4 */
+#section4 .right-box .right-box1 li:hover {
+    background-color: #fff;
+}
+
+#section4 .right-box .right-box1 li:hover p:nth-child(2) {
+    color: #000;
+}
+
+#section4 .right-box .right-box2 li:hover {
+    background-color: #000;
+}
+
+#section4 .right-box .right-box2 li:hover p:nth-child(2) {
+    color: #fff;
+}
+
+/* section5 */
+#section5 .s5-wrapper .s5-gnb img:hover {
+    transform: scaleX(0.95);
+    border-radius: 100%;
+}
+#section5 .s5-header .right-h svg:hover .slider {
+    stroke: #fff;
+}
+
+/* footer */
+#footer .footer-right .category:hover {
+    height: 100px;
+}
