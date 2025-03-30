@@ -11,16 +11,16 @@
 #header .menu-box .language a:hover {
     border-bottom: 2px solid red;
 }
-
 #header .menu-box .menu-line:hover .line-up {
     transform: rotate(45deg);
-    transition: all 1s;
+    transition: all 0.5s;
+    top: -10px;
 }
 
 #header .menu-box .menu-line:hover .line-down {
-    top: 0;
+    top: -10px;
     transform: rotate(-45deg);
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 /* mainBottom*/
@@ -40,8 +40,7 @@ fill: #fff;
 }
 
 /* section2 */
-#section2 .s2-nav .s2-csv li img:hover {
-    transform: scaleX(0.7);
+#section2 .s2-nav .s2-csv li div:hover {
     border-radius: 100%;
 }
 
@@ -64,8 +63,7 @@ fill: #fff;
 
 /* section5 */
 #section5 .s5-wrapper .s5-gnb img:hover {
-    transform: scaleX(0.95);
-    border-radius: 100%;
+    border-radius: 50%;
 }
 #section5 .s5-header .right-h svg:hover .slider {
     stroke: #fff;

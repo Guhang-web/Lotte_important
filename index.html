@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lOTTE CULTUREWORKS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="hover.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="mouseCursor" id="cursor"></div>
+    <div class="mouseCursor" id="cursor">
+        <svg height="50" width="50">
+            <circle cx="25" cy="25" r="20" stroke-width="1px"></circle>
+          </svg>
+    </div>
     <section id="main">
 
         <video id="L-main" src="video//lotte.section.mp4" muted autoplay playsinline loop></video>
@@ -162,7 +170,7 @@
                     <svg>
                         <circle class="scroll-touch" cx="15" cy="10" r="4" fill="#fff"></circle>
                     </svg>
-                    <img class="finger" src="poto.img/finger.png" alt="손가락">
+                    <img class="finger" src="img/finger.png" alt="손가락">
                 </ul>
                 <p>Scroll to expore</p>
             </div>
@@ -211,11 +219,11 @@
             </div>
             <div class="s2-nav">
                 <ul class="s2-csv">
-                    <li>
-                        <h1 data-ko="어린이/청소년 성장지원" data-en="Children/Youth growth support">어린이/청소년 성장지원</h1>
+                    <li class="s2-delay1">
+                        <h1 data-ko="어린이/청소년 성장지원" data-en="Youth growth support">어린이/청소년 성장지원</h1>
                         <p data-ko="롯데시네마 영화제작교실" data-en="Lotte Cinema Film Production Class">롯데시네마 영화제작교실</p>
                         <p data-ko="영화제작교실 오픈강좌" data-en="Film Production Class Open lecture ">영화제작교실 오픈강좌</p>
-                        <a href="#"><img class="s2Img" src="img/se-2.1.jpg" alt="영화제작교실"></a>
+                        <div class="s2-img1"></div>
                         <svg>
                             <circle class="plus" cx="150" cy="95" r="40" fill="#fff"></circle>
                             <line class="plus1" x1="145" y1="95" x2="155" y2="95"></line>
@@ -224,24 +232,24 @@
                     </li>
                 </ul>
                 <ul class="s2-csv">
-                    <li>
-                        <h1 class="s2-csvA">YOUNG Communication</h1>
+                    <li class="s2-delay2">
+                        <h1 class="s2-csvA">Communication</h1>
                         <p data-ko="드라마 공모전" data-en="drama contest">드라마 공모전</p>
                         <p data-ko="직무 멘토링" data-en="Job Mentoring">직무 멘토링</p>
-                        <a href="#"><img class="s2Img" src="img/se-2.2.jpg" alt="대학생 서포터즈1기"></a>
+                        <div class="s2-img2"></div>
                         <svg>
-                            <circle class="plus" cx="150" cy="90" r="40" fill="#fff"></circle>
-                            <line class="plus1" x1="145" y1="90" x2="155" y2="90"></line>
-                            <line class="plus2" x1="150" y1="95" x2="150" y2="85"></line>
+                            <circle class="plus" cx="150" cy="95" r="40" fill="#fff"></circle>
+                            <line class="plus1" x1="145" y1="95" x2="155" y2="95"></line>
+                            <line class="plus2" x1="150" y1="100" x2="150" y2="90"></line>
                         </svg>
                     </li>
                 </ul>
                 <ul class="s2-csv">
-                    <li>
+                    <li class="s2-delay3">
                         <h1 data-ko="문화나눔" data-en="Cultural Sharing">문화나눔</h1>
                         <p data-ko="영화와 공연" data-en="movies and performances">영화와 공연</p>
                         <p data-ko="문화나눔" data-en="Cultural Sharing">문화나눔</p>
-                        <a href=""><img class="s2Img" src="img/se-2.3.jpg" alt="문화나눔"></a>
+                        <div class="s2-img3"></div>
                         <svg>
                             <circle class="plus" cx="150" cy="95" r="40" fill="#fff"></circle>
                             <line class="plus1" x1="145" y1="95" x2="155" y2="95"></line>
@@ -250,11 +258,25 @@
                     </li>
                 </ul>
                 <ul class="s2-csv">
-                    <li>
-                        <h1 data-ko="임직원 봉사활동" data-en="Employee volunteer activities">임직원 봉사활동</h1>
+                    <li class="s2-delay4">
+                        <h1 data-ko="임직원 봉사활동" data-en="volunteer activities">임직원 봉사활동</h1>
                         <p data-ko="자발적인 참여 임직원 봉사활동" data-en="Employee volunteer activities">자발적인 참여 임직원 봉사활동</p>
                         <p data-ko="정기적 봉사 동호회" data-en="volunteer club">정기적 봉사 동호회</p>
-                        <a href="#"><img class="s2Img" src="img/se-2.4.jpg" alt="임직원 봉사활동"></a>
+                        <div class="s2-img4"></div>
+                        <svg>
+                            <circle class="plus" cx="150" cy="95" r="40" fill="#fff"></circle>
+                            <line class="plus1" x1="145" y1="95" x2="155" y2="95"></line>
+                            <line class="plus2" x1="150" y1="100" x2="150" y2="90"></line>
+                        </svg>
+                    </li>
+                </ul>
+                <ul class="s2-csv">
+                    <li class="s2-delay5">
+                        <h1 data-ko="사회공헌활동" data-en="CSR">사회공헌활동</h1>
+                        <p data-ko="롯데유통BU와 함께하는" data-en="With Lotte Distribution BU">롯데유통BU와 함께하는</p>
+                        <p data-ko="사회공헌활동 세상을 잇습니다." data-en=
+                        "Corporate Social Responsibility">사회공헌활동 세상을 잇습니다.</p>
+                        <div class="s2-img5"></div>
                         <svg>
                             <circle class="plus" cx="150" cy="95" r="40" fill="#fff"></circle>
                             <line class="plus1" x1="145" y1="95" x2="155" y2="95"></line>
@@ -285,7 +307,75 @@
                 <div class="right-side">
                     <ul class="left-gnb">
                         <li>
-                            <img class="cloud" src="poto.img/s3.cloud.png" alt="구름">
+                            <div class="icon">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="48" height="48" viewBox="0 0 48 48">
+                                        <defs>
+                                            <clipPath id="clip-path1">
+                                                <rect id="사각형_4459" data-name="사각형 4459" width="48" height="48"
+                                                    fill="none" stroke="#fff" stroke-width="1"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="회사소개_아이콘_01" clip-path="url(#clip-path1)">
+                                            <path id="패스_3502" data-name="패스 3502"
+                                                d="M37,28h3a7,7,0,1,0-2.13-13.668A6.991,6.991,0,0,0,31,6a6.966,6.966,0,0,0-4.572,1.707A10,10,0,0,0,7.461,14.027,7,7,0,0,0,8,28h3"
+                                                fill="none" stroke="#fff" stroke-width="2"></path>
+                                            <path id="패스_3503" data-name="패스 3503"
+                                                d="M26.445,7.7a9.955,9.955,0,0,1,.508,2.3" fill="none" stroke="#fff"
+                                                stroke-width="2"></path>
+                                            <path id="패스_3504" data-name="패스 3504"
+                                                d="M37.873,14.333A6.978,6.978,0,0,1,37,16.608" fill="none" stroke="#fff"
+                                                stroke-width="2"></path>
+                                            <path id="패스_3505" data-name="패스 3505"
+                                                d="M7.46,14.021a7.055,7.055,0,0,1,2.6.286" fill="none" stroke="#fff"
+                                                stroke-width="2"></path>
+                                            <rect id="사각형_4456" data-name="사각형 4456" width="12" height="8"
+                                                transform="translate(2 36)" fill="none" stroke="#fff" stroke-width="2">
+                                            </rect>
+                                            <rect id="사각형_4457" data-name="사각형 4457" width="12" height="8"
+                                                transform="translate(18 36)" fill="none" stroke="#fff" stroke-width="2">
+                                            </rect>
+                                            <rect id="사각형_4458" data-name="사각형 4458" width="12" height="8"
+                                                transform="translate(34 36)" fill="none" stroke="#fff" stroke-width="2">
+                                            </rect>
+                                            <line id="선_5" data-name="선 5" x2="8" transform="translate(4 47)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_6" data-name="선 6" y2="3" transform="translate(8 44)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_7" data-name="선 7" x2="8" transform="translate(20 47)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_8" data-name="선 8" y2="3" transform="translate(24 44)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_9" data-name="선 9" x2="8" transform="translate(36 47)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_10" data-name="선 10" y2="3" transform="translate(40 44)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_11" data-name="선 11" y1="8" transform="translate(13 26)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_12" data-name="선 12" y1="10" transform="translate(24 24)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_13" data-name="선 13" y1="7" transform="translate(35 27)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_14" data-name="선 14" x2="7" transform="translate(15 28)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_15" data-name="선 15" x2="7" transform="translate(26 28)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_16" data-name="선 16" y1="2" transform="translate(13 22)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_17" data-name="선 17" y1="2" transform="translate(13 18)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_18" data-name="선 18" y1="2" transform="translate(24 20)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_19" data-name="선 19" y1="2" transform="translate(24 16)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_20" data-name="선 20" y1="2" transform="translate(35 23)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                            <line id="선_21" data-name="선 21" y1="2" transform="translate(24 12)"
+                                                fill="none" stroke="#fff" stroke-width="2"></line>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
                             <h3 data-ko="고객의 대한 다짐" data-en="Our commitment to our customers">고객의 대한 다짐</h3>
                             <p data-ko="고객존중, 고객만족, 고객신뢰창조"
                                 data-en="Respect for customers, customer satisfaction, Creating customer trust">고객존중,
@@ -293,7 +383,55 @@
                             <p class="length-p">OUR COMMITMENT TO OUR CUSTOMERS</p>
                         </li>
                         <li>
-                            <img class="arrow" src="poto.img/s3.arrow.png" alt="화살">
+                            <div class="icon">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="46.522" height="46.522" viewBox="0 0 46.522 46.522">
+                                        <defs>
+                                            <clipPath id="clip-path2">
+                                                <rect id="사각형_4465" data-name="사각형 4465" width="46.522" height="46.522"
+                                                    transform="translate(0 0)" fill="none" stroke="#fff"
+                                                    stroke-width="1"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="회사소개_아이콘_02" transform="translate(-827 -2881)">
+                                            <g id="그룹_11084" data-name="그룹 11084" transform="translate(827 2881)"
+                                                clip-path="url(#clip-path2)">
+                                                <rect id="사각형_4464" data-name="사각형 4464" width="10" height="4"
+                                                    transform="translate(14 1.522)" fill="none" stroke="#fff"
+                                                    stroke-width="2"></rect>
+                                                <line id="선_40" data-name="선 40" y1="5" x2="5"
+                                                    transform="translate(1 8.522)" fill="none" stroke="#fff"
+                                                    stroke-width="2"></line>
+                                            </g>
+                                            <line id="선_41" data-name="선 41" x1="3" y1="3"
+                                                transform="translate(831 2892.522)" fill="none" stroke="#fff"
+                                                stroke-width="2"></line>
+                                            <line id="선_42" data-name="선 42" y1="24" x2="24"
+                                                transform="translate(846 2884.522)" fill="none" stroke="#fff"
+                                                stroke-width="2"></line>
+                                            <g id="그룹_11086" data-name="그룹 11086" transform="translate(827 2881)"
+                                                clip-path="url(#clip-path2)">
+                                                <path id="패스_3545" data-name="패스 3545" d="M41,5.522l-3-4-4,4v7"
+                                                    fill="none" stroke="#fff" stroke-width="2"></path>
+                                                <path id="패스_3546" data-name="패스 3546" d="M41,5.522l4,3-4,4H34"
+                                                    fill="none" stroke="#fff" stroke-width="2"></path>
+                                                <path id="패스_3547" data-name="패스 3547"
+                                                    d="M29.583,19.971a13,13,0,1,1-2.991-3" fill="none" stroke="#fff"
+                                                    stroke-width="2"></path>
+                                                <path id="패스_3548" data-name="패스 3548"
+                                                    d="M25.232,24.331a7,7,0,1,1-2.977-3.007" fill="none" stroke="#fff"
+                                                    stroke-width="2"></path>
+                                                <path id="패스_3549" data-name="패스 3549"
+                                                    d="M30.151,13.4A17.941,17.941,0,0,0,21,9.639V7.522" fill="none"
+                                                    stroke="#fff" stroke-width="2"></path>
+                                                <path id="패스_3550" data-name="패스 3550"
+                                                    d="M17,7.522V9.639A18,18,0,1,0,33.151,16.4" fill="none"
+                                                    stroke="#fff" stroke-width="2"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
                             <h3 data-ko="주주에 대한 책임과 의무" data-en="Responsibilities and Obligations to Shareholders">주주에
                                 대한 책임과 의무</h3>
                             <p data-ko="성실경영, 투명성 유지, 주주의 알 권리 보장"
@@ -304,7 +442,59 @@
                     </ul>
                     <ul class="right-gnb">
                         <li>
-                            <img class="human" src="poto.img/s3.human.png" alt="악수">
+                            <div class="icon">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="47.685" height="48" viewBox="0 0 47.685 48">
+                                        <defs>
+                                            <clipPath id="clip-path3">
+                                                <rect id="사각형_4461" data-name="사각형 4461" width="47.685" height="48"
+                                                    fill="none" stroke="#fff" stroke-width="1"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="회사소개_아이콘_03" clip-path="url(#clip-path3)">
+                                            <path id="패스_3516" data-name="패스 3516"
+                                                d="M26.685,16c1.958-2.583,2.833-4,6-4h5c2.512,0,6,.969,6,5v4a4.114,4.114,0,0,1-4,4"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3517" data-name="패스 3517" d="M31.685,24V19h-1l-2,1" fill="none"
+                                                stroke="#fff" stroke-linejoin="round" stroke-width="2"></path>
+                                            <line id="선_30" data-name="선 30" y2="10" transform="translate(39.685 18)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <path id="패스_3518" data-name="패스 3518"
+                                                d="M4.7,35.2A23.216,23.216,0,0,0,1,47H46.685A22.871,22.871,0,0,0,19.63,25.22"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3519" data-name="패스 3519"
+                                                d="M10.685,47V45.111A1.863,1.863,0,0,1,12.648,43h6.53a2.684,2.684,0,0,0,2.507-2.553v-.933A2.348,2.348,0,0,1,23.836,37h0c1.288,0,1.852-.863,1.852-2.151v-.932c0-1.289-.554-1.917-1.842-1.917H19.685"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3520" data-name="패스 3520"
+                                                d="M40.685,33H33.638c-1.03,0-1.953,1.285-1.953,2.316v.933A1.849,1.849,0,0,0,33.638,38H35.5a2.21,2.21,0,0,1,2.181,1.923v.106A2.252,2.252,0,0,1,35.5,42H30.839c-2.06,0-4.154,1.517-4.154,3.578V47"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3521" data-name="패스 3521"
+                                                d="M16.685,39V18h1.08s2.3,1.749,3.92,3c2.542,1.958,5.409-.525,5.409-.525s-3.7-3.933-5.409-5.475a9.774,9.774,0,0,0-7-3h-5c-2.512,0-6,1.394-6,6v4a4.28,4.28,0,0,0,4,4"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <line id="선_31" data-name="선 31" y2="22" transform="translate(7.685 17)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <line id="선_32" data-name="선 32" y2="14" transform="translate(11.685 25)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <path id="패스_3522" data-name="패스 3522"
+                                                d="M12.185,1a3.332,3.332,0,0,0-3.5,3.2V5.8a3.332,3.332,0,0,0,3.5,3.2,3.332,3.332,0,0,0,3.5-3.2V4.2A3.332,3.332,0,0,0,12.185,1Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3523" data-name="패스 3523"
+                                                d="M36.185,1a3.332,3.332,0,0,0-3.5,3.2V5.8a3.514,3.514,0,0,0,7,0V4.2A3.332,3.332,0,0,0,36.185,1Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
                             <h3 data-ko="임직원의 기본윤리" data-en="basic ethics">임직원의 기본윤리</h3>
                             <p data-ko="규번준수, 신의 성실, 상호존중, 능력개발"
                                 data-en="Compliance with norms, good faith, mutual respect, ability development">규범준수,
@@ -312,7 +502,64 @@
                             <p class="length-p">BASIC ETHICS</p>
                         </li>
                         <li id="s3Scroll">
-                            <img class="people" src="poto.img/s3peple.png" alt="사람들">
+                            <div class="icon">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="46" height="46" viewBox="0 0 46 46">
+                                        <defs>
+                                            <clipPath id="clip-path4">
+                                                <rect id="사각형_4463" data-name="사각형 4463" width="46" height="46"
+                                                    fill="none" stroke="#fff" stroke-width="1"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="회사소개_아이콘_04" clip-path="url(#clip-path4)">
+                                            <path id="패스_3537" data-name="패스 3537"
+                                                d="M29,40a4.217,4.217,0,0,0,4-4V27c0-3.3-6.526-5-10-5s-10,1.7-10,5v9a4.217,4.217,0,0,0,4,4"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3538" data-name="패스 3538"
+                                                d="M41,42c1.945,0,4-1.055,4-3V30c0-3.3-5.874-5-9-5-.309,0-.646.017-1,.05"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3539" data-name="패스 3539"
+                                                d="M23,19c2.331,0,4-1.47,4-3.6V13.6c0-2.13-1.669-3.6-4-3.6s-4,1.47-4,3.6v1.8C19,17.53,20.669,19,23,19Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <line id="선_36" data-name="선 36" y1="14" transform="translate(41 32)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <line id="선_37" data-name="선 37" y1="17" transform="translate(29 29)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <line id="선_38" data-name="선 38" y2="17" transform="translate(17 29)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <path id="패스_3540" data-name="패스 3540"
+                                                d="M37,22c2.331,0,4-1.47,4-3.6V16.6c0-2.13-1.669-3.6-4-3.6s-4,1.47-4,3.6v1.8C33,20.53,34.669,22,37,22Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3541" data-name="패스 3541"
+                                                d="M5,42c-1.945,0-4-1.055-4-3V30c0-3.3,5.874-5,9-5,.309,0,.646.017,1,.05"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <line id="선_39" data-name="선 39" y1="14" transform="translate(5 32)"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </line>
+                                            <path id="패스_3542" data-name="패스 3542"
+                                                d="M9,22c-2.331,0-4-1.47-4-3.6V16.6C5,14.47,6.669,13,9,13s4,1.47,4,3.6v1.8C13,20.53,11.331,22,9,22Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3543" data-name="패스 3543"
+                                                d="M14,10c-2.331,0-4-1.47-4-3.6V4.6C10,2.47,11.669,1,14,1s4,1.47,4,3.6V6.4C18,8.53,16.331,10,14,10Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                            <path id="패스_3544" data-name="패스 3544"
+                                                d="M32,10c-2.331,0-4-1.47-4-3.6V4.6C28,2.47,29.669,1,32,1s4,1.47,4,3.6V6.4C36,8.53,34.331,10,32,10Z"
+                                                fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
                             <h3 data-ko="협력사와 올바른 관계" data-en="Proper relationship with partners">협력사와 올바른 관계</h3>
                             <p data-ko="공정한 거래, 상호발전의 추구, 협력회사에 대한 비윤리적행위 금지" data-en="square deal, Pursuit of Mutual Development, 
                             unethical behavior">공정한 거래, 상호발전의 추구,</br> 협력회사에 대한 비윤리적행위 금지</p>
@@ -447,21 +694,6 @@
                 <a href="https://www.lottecinema.co.kr/NLCHS/Etc/EmailCollectionRefusal" data-ko="이메일 무단수집 거부"
                     data-en="Refusal of unauthorized collection of emails">이메일 무단수집 거부</a>
             </ul>
-            <div class="footer-right">
-                <ul class="category"><button><span>Business field</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-chevron-down" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-                        </svg>
-                    </button>
-                    <li><a href="https://www.lottecinema.co.kr/NLCHS" data-ko="롯데시네마" data-en="lottecinema">롯데시네마</a>
-                    </li>
-                    <li><a href="https://blog.lotte.co.kr/tag/%EB%A1%AF%EB%8D%B0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8"
-                            data-ko="롯데엔터테이먼트" data-en="Lotte Entertainment">롯데엔터테이먼트</a>
-                    </li>
-                </ul>
-            </div>
         </div>
         </div>
         <div class="footer-gnb">
@@ -485,7 +717,7 @@
             <div class="footer-app">
                 <i class="bi bi-facebook">
                     <a href="https://www.facebook.com/lotte">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="blue"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="blue"
                             class="bi bi-facebook" viewBox="0 0 16 16">
                             <path
                                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
@@ -494,7 +726,7 @@
                 </i>
                 <i class="bi bi-instagram">
                     <a href="https://www.instagram.com/lottecultureworks/?hl=am-et">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="pink"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="pink"
                             class="bi bi-instagram" viewBox="0 0 16 16">
                             <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />

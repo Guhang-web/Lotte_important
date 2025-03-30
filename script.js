@@ -91,7 +91,7 @@ function handleScroll(event) {
 
     // 스크롤의 방향을 나타내는 deltaY 값 가져오기
     let deltaY = event.deltaY;
-
+    
     // 아래로 스크롤하는 경우
     if (deltaY > 0) {
         currentSectionIndex++;
@@ -104,24 +104,51 @@ function handleScroll(event) {
     // 현재 섹션 인덱스를 배열 범위 내로 제한
     currentSectionIndex = Math.max(0, Math.min(currentSectionIndex, sections.length - 1));
 
+    
     // 스크롤 이동 중 플래그를 활성화
     isScrolling = true;
-
     // 현재 섹션의 위치로 부드러운 스크롤 이동
-    sections[currentSectionIndex].scrollIntoView({
-        behavior: 'smooth'
-    });
-
+    
     setTimeout(function () {
+        sections[currentSectionIndex].scrollIntoView({
+            behavior: 'smooth'
+        });
         isScrolling = false;
     }, 1000)
-    gsap.to(window,{
-        duration : 1,
-        scrollTo : { y : sections[currentSectionIndex], autoKill: false},
-        ease: "power2.out",
-        onComplete: ()=>{isScrolling = false;}
-    })
+        
+        gsap.to(window,{
+            duration : 1.5,
+            scrollTo : { y : sections[currentSectionIndex], autoKill: false},
+            ease: "power2.out",
+            onComplete: ()=>{isScrolling = false;}
+        })
+        // section2 순차적
+        let move = document.querySelector('.move');
+        setTimeout(function (){
+            document.querySelector('.s2-delay1').classList.add('move');
+        },1000);
+        setTimeout(function (){
+            document.querySelector('.s2-delay2').classList.add('move');
+        },2000);
+        setTimeout(function (){
+            document.querySelector('.s2-delay3').classList.add('move');
+        },1500);
+        setTimeout(function (){
+            document.querySelector('.s2-delay4').classList.add('move');
+        },2500);
+        setTimeout(function (){
+            document.querySelector('.s2-delay5').classList.add('move');
+        },3000);
+        // section3 순차적
+        setTimeout(function (){
+            document.querySelector('.left-gnb').classList.add('move');
+        },2500);
+        setTimeout(function (){
+            document.querySelector('.right-gnb').classList.add('move');
+        },3000);
 }
+    
+
 
 // 마우스 휠 이벤트 리스너 등록
 window.addEventListener('wheel', handleScroll);
@@ -243,14 +270,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //  마우스 포인트 변경
 // 커서 이미지 경로 설정 (이미지 파일 경로를 입력하세요)
-const mouseImage = 'img/star.png';
+// const mouseImage = '';
         
 const mouseElement = document.getElementById('cursor');
 
 // 커서에 이미지 설정
-mouseElement.style.backgroundImage = `url(${mouseImage})`;
+// mouseElement.style.backgroundImage = `url(${mouseImage})`;
 mouseElement.style.backgroundSize = 'cover'; // 이미지 크기 맞추기
-mouseElement.style.backgroundColor = 'rgba(255,255,255,0.2)'; // 이미지 크기 맞추기
+// mouseElement.style.backgroundColor = 'rgba(255,255,255,0.2)'; // 이미지 크기 맞추기
 
 
 // 마우스 움직임을 추적하여 커서를 움직임
