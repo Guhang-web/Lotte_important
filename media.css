@@ -62,6 +62,10 @@
     .p-4 {
         font-size: 14px;
     }
+
+    #section3 .right-side li h3 {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width:1620px) {
@@ -82,42 +86,53 @@
     #header #hidden-menu .hidden-gnb li:nth-child(1) {
         margin-left: 30px;
     }
+}
 
-    @media (max-width:1550px) {
+@media (max-width:1550px) {
 
-        /* header menu */
-        #header .header-gnb .inner li {
-            margin-left: 30px;
-        }
+    /* header menu */
+    #header .header-gnb .inner li {
+        margin-left: 30px;
+    }
 
-        /* section2 */
-        #section2 .s2-nav .s2-csv li h1 {
-            font-size: 20px;
-        }
+    /* section2 */
+    #section2 .s2-nav .s2-csv li h1 {
+        font-size: 20px;
+    }
 
-        #section2 .s2-nav .s2-csv li p {
-            font-size: 12px;
-        }
+    #section2 .s2-nav .s2-csv li p {
+        font-size: 12px;
+    }
 
-        #section3 .left-side {
-            display: none;
-        }
+    #section3 .left-side {
+        display: none;
+    }
+}
+
+@media (max-width:1430px) {
+    #section3 .right-side {
+        right: 0;
+
+    }
+    
+    #section3 .right-side ul li {
+        width: 100%;
     }
 }
 
 @media (max-width:1340px) {
-
+    
     /* header menu*/
-
+    
     #header #hidden-menu .hidden-gnb {
         gap: 0px;
     }
-
-
+    
+    
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 24px;
     }
-
+    
     #header #hidden-menu .hidden-gnb li a {
         font-size: 14px;
     }
@@ -127,11 +142,11 @@
     #header .header-gnb .inner-gnb a {
         margin-right: 15px;
     }
-
+    
     #section2 .s2-nav .s2-csv li p {
         display: none;
     }
-
+    
     #section2 .s2-nav .s2-csv li h1 {
         margin-top: 60px;
     }
@@ -141,15 +156,15 @@
     #header .header-gnb {
         justify-content: space-between;
     }
-
+    
     #header .header-gnb .inner {
         display: none;
     }
-
+    
     #header .menu-box .language {
         width: 80px;
     }
-
+    
     #section2 .s2-nav .s2-csv li h1 {
         font-size: 16px;
     }
@@ -159,76 +174,105 @@
     #header #hidden-menu .hidden-gnb li {
         padding: 0 10px;
     }
-
+    
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 20px;
     }
-
+    
     #header .menu-box {
         margin-right: 20px;
     }
-
+    
+    #mainBottom .customer svg {
+        margin: 50px 20px;
+    }
+    
+    #mainBottom .customer svg text {
+        font-size: 11px;
+    }
+    
+    #mainBottom img {
+        margin: 110px 40px;
+    }
+    
     #section2 .s2-menu {
         display: none;
     }
-
+    
     #section2 .s2-nav {
         flex-wrap: wrap;
     }
-
+    
     #section2 .s2-nav .s2-csv {
         width: 40%;
         height: 40vh;
         border-left: none;
-        margin: 10px 10px;
+        margin: 5px 10px;
     }
+    
     #section2 .s2-nav .s2-csv li h1 {
         margin: 0;
     }
+    
     #section2 .s2-nav .s2-csv:nth-child(1) {
         margin-top: 80px;
     }
-
+    
     #section2 .s2-nav .s2-csv:nth-child(2) {
         margin-top: 80px;
     }
-
+    
     #section2 .s2-nav .s2-csv li {
-        width: 100%;
+        width: 95%;
         height: 90%;
         margin-bottom: 10px;
     }
-
+    
     #section2 .s2-nav .s2-csv .s2-delay5 {
         display: none;
     }
-
+    
     #section2 .s2-nav .s2-csv li svg {
         display: none;
     }
-
+    
     #section2 .s2-nav .s2-csv li div {
         width: 100%;
         height: 100%;
         margin-top: 10px;
     }
     
-
-    #section3 .right-side {
-        right: 0;
-        width: 88%;
+    /*  section3 */
+    #section3 .s3-video {
+        width: 100%;
+        height: 100vh;
+        background-image: url('img/s3_bg.jpg');
     }
-
-    #section3 .right-side ul li {
-        width: 80%;
+    
+    #section3 .s3-video iframe {
+        display: none;
+    }
+    #section3 .right-side {
+        justify-content: center;
+  
+    }
+    #section3 .right-side .left-gnb {
+        width: 30%;
+        margin-right: 50px;
+    }
+    #section3 .right-side .right-gnb {
+        width: 30%;
     }
 
     #section3 .right-side ul p {
-        display: none;
+        margin-top: 10px;
+        color: skyblue;
+        font-size: 13px;
     }
 
     #section3 .right-side li h3 {
         font-size: 20px;
+        margin-top: 0;
     }
 
     #footer .footer-wrapper .footer-left {
@@ -249,16 +293,22 @@
     #footer .footer-wrapper .footer-right {
         right: 20px;
     }
-
+    
     #footer .footer-gnb .footer-app {
         display: none;
     }
-
+    
     #footer .footer-gnb .footer-pro {
         width: 870px;
         height: 70px;
         flex-wrap: wrap;
         margin-left: 20px;
+    }
+}
+@media (max-width:800px) {
+    #section3 .right-side {
+        position: relative;
+        left: -13%;
     }
 }
 
@@ -269,16 +319,16 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     #L-main {
         display: none;
     }
-    
+
     #header .header-gnb {
         margin: 0;
         margin-top: 20px;
     }
-    
+
     #header .header-gnb .logo {
         background-image: url('img/img_logo.png');
         background-position: center;
@@ -289,64 +339,67 @@
         top: 0;
         left: 45%;
     }
-    
+
     #header .menu-box .language {
         display: none;
     }
-    
+
     #header .menu-box .menu-line span {
         margin-top: 30px;
         width: 40px;
     }
-    
+
     #header .menu-box .menu-line .line-down {
         background-color: gray;
     }
-    
+
     #header #hidden-menu {
-        top: 80px;
+        top: 85px;
     }
-    
+
     #header #hidden-menu .hidden-gnb li {
         margin-top: 30px;
     }
-    
+
     #header #hidden-menu .hidden-gnb {
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(200, 200, 200, 0.3);
         height: 220px;
     }
-    
+
     #header #hidden-menu .hidden-gnb li:nth-child(1) {
         margin-left: 0;
     }
-    
+
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 14px;
         margin-bottom: 20px;
     }
-    
+
     #header #hidden-menu .hidden-gnb li a {
         font-size: 10px;
     }
-    #section3 .s3-video iframe {
+    #section3 .right-side ul p {
         display: none;
     }
-    
+    #section3 .right-side li h3 {
+        font-size: 14px;
+    }
 }
 @media (max-width:600px) {
-    #section2 .s2-nav .s2-csv{
+    #section2 .s2-nav .s2-csv {
         width: 180px;
         height: 180px;
         margin: 10px;
     }
+
     #section2 .s2-nav .s2-csv li h1 {
         margin: 0;
     }
-    
+
     #section2 .s2-nav .s2-csv li div {
         margin-top: 10px;
         border-radius: 50%;
-        
+
     }
 
 }
