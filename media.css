@@ -114,25 +114,25 @@
         right: 0;
 
     }
-    
+
     #section3 .right-side ul li {
         width: 100%;
     }
 }
 
 @media (max-width:1340px) {
-    
+
     /* header menu*/
-    
+
     #header #hidden-menu .hidden-gnb {
         gap: 0px;
     }
-    
-    
+
+
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 24px;
     }
-    
+
     #header #hidden-menu .hidden-gnb li a {
         font-size: 14px;
     }
@@ -142,11 +142,11 @@
     #header .header-gnb .inner-gnb a {
         margin-right: 15px;
     }
-    
+
     #section2 .s2-nav .s2-csv li p {
         display: none;
     }
-    
+
     #section2 .s2-nav .s2-csv li h1 {
         margin-top: 60px;
     }
@@ -156,15 +156,15 @@
     #header .header-gnb {
         justify-content: space-between;
     }
-    
+
     #header .header-gnb .inner {
         display: none;
     }
-    
+
     #header .menu-box .language {
         width: 80px;
     }
-    
+
     #section2 .s2-nav .s2-csv li h1 {
         font-size: 16px;
     }
@@ -174,92 +174,96 @@
     #header #hidden-menu .hidden-gnb li {
         padding: 0 10px;
     }
-    
+
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 20px;
     }
-    
+
     #header .menu-box {
         margin-right: 20px;
     }
-    
+
     #mainBottom .customer svg {
         margin: 50px 20px;
     }
-    
+
     #mainBottom .customer svg text {
         font-size: 11px;
     }
-    
+
     #mainBottom img {
         margin: 110px 40px;
     }
-    
+
     #section2 .s2-menu {
         display: none;
     }
-    
+
     #section2 .s2-nav {
         flex-wrap: wrap;
     }
-    
+
     #section2 .s2-nav .s2-csv {
         width: 40%;
         height: 40vh;
         border-left: none;
         margin: 5px 10px;
     }
-    
+
     #section2 .s2-nav .s2-csv li h1 {
         margin: 0;
     }
-    
+
     #section2 .s2-nav .s2-csv:nth-child(1) {
         margin-top: 80px;
     }
-    
+
     #section2 .s2-nav .s2-csv:nth-child(2) {
         margin-top: 80px;
     }
-    
+
     #section2 .s2-nav .s2-csv li {
         width: 95%;
         height: 90%;
         margin-bottom: 10px;
     }
-    
+
     #section2 .s2-nav .s2-csv .s2-delay5 {
         display: none;
     }
-    
+
     #section2 .s2-nav .s2-csv li svg {
         display: none;
     }
-    
+
     #section2 .s2-nav .s2-csv li div {
         width: 100%;
         height: 100%;
         margin-top: 10px;
     }
-    
+
     /*  section3 */
     #section3 .s3-video {
         width: 100%;
         height: 100vh;
         background-image: url('img/s3_bg.jpg');
     }
-    
+
     #section3 .s3-video iframe {
         display: none;
     }
+
     #section3 .right-side {
         justify-content: center;
-  
+
     }
+
     #section3 .right-side .left-gnb {
         width: 30%;
+        
         margin-right: 50px;
     }
+
     #section3 .right-side .right-gnb {
         width: 30%;
     }
@@ -269,12 +273,15 @@
         color: skyblue;
         font-size: 13px;
     }
-
+    
+    #section3 .right-side .left-gnb li:nth-child(1) {
+        margin-top: 35px;
+    }
     #section3 .right-side li h3 {
         font-size: 20px;
         margin-top: 0;
     }
-
+    
     #footer .footer-wrapper .footer-left {
         left: 20px;
     }
@@ -290,14 +297,18 @@
 }
 
 @media (max-width:980px) {
+    #section5 .s5-header .right-h {
+        margin-right: 40px;
+    }
+
     #footer .footer-wrapper .footer-right {
         right: 20px;
     }
-    
+
     #footer .footer-gnb .footer-app {
         display: none;
     }
-    
+
     #footer .footer-gnb .footer-pro {
         width: 870px;
         height: 70px;
@@ -305,6 +316,7 @@
         margin-left: 20px;
     }
 }
+
 @media (max-width:800px) {
     #section3 .right-side {
         position: relative;
@@ -326,7 +338,8 @@
 
     #header .header-gnb {
         margin: 0;
-        margin-top: 20px;
+        width: 100%;
+        max-width: 700px;
     }
 
     #header .header-gnb .logo {
@@ -334,10 +347,8 @@
         background-position: center;
         width: 70px;
         height: 53px;
-        margin-right: 20px;
-        position: relative;
-        top: 0;
-        left: 45%;
+        position: absolute;
+        left: 50%;
     }
 
     #header .menu-box .language {
@@ -347,6 +358,9 @@
     #header .menu-box .menu-line span {
         margin-top: 30px;
         width: 40px;
+        position: absolute;
+        left: 0;
+        margin-left: 20px;
     }
 
     #header .menu-box .menu-line .line-down {
@@ -354,7 +368,7 @@
     }
 
     #header #hidden-menu {
-        top: 85px;
+        top: 110px;
     }
 
     #header #hidden-menu .hidden-gnb li {
@@ -378,14 +392,41 @@
     #header #hidden-menu .hidden-gnb li a {
         font-size: 10px;
     }
+
     #section3 .right-side ul p {
         display: none;
     }
+
+    #section3 .right-side {
+        left: -3%;
+        width: 640px;
+        height: 540px;
+        margin: 0 auto;
+    }
+
     #section3 .right-side li h3 {
         font-size: 14px;
     }
+
+    #footer .footer-gnb .footer-pro {
+        display: block;
+    }
+
+    #footer .footer-gnb .footer-pro li:nth-child(2) {
+        display: none;
+    }
+
+    #footer .footer-gnb .footer-pro li:nth-child(4) {
+        display: none;
+    }
+
 }
+
 @media (max-width:600px) {
+    #header .header-gnb {
+        width: 100%;
+        max-width: 600px;
+    }
     #section2 .s2-nav .s2-csv {
         width: 180px;
         height: 180px;
@@ -399,9 +440,61 @@
     #section2 .s2-nav .s2-csv li div {
         margin-top: 10px;
         border-radius: 50%;
-
     }
 
+    #section3 .right-side {
+        left: -10%;
+    }
+
+    #section5 .s5-header .left-h p:nth-child(2) {
+        font-size: 4em;
+    }
+
+    #section5 .s5-header .left-h p:nth-child(3) {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:500px) {
+    #header .header-gnb {
+        width: 100%;
+        max-width: 500px;
+    }
+    #header .header-gnb .logo {
+        left: 40%;
+    }
+    #header #hidden-menu {
+        height: 250px;
+    }
+
+    
+    #section3 {
+    display: none;
+    }  
+}
+@media (max-width:412px) {
+    #header .header-gnb {
+        width: 100%;
+        max-width: 412px;
+    }
+    #header .header-gnb .logo {
+        left: 50%;
+    }
+    #mainBottom .customer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #section5 .s5-header .left-h p:nth-child(2) {
+        font-size: 3em;
+    }
+    #section5 .s5-header .left-h p:nth-child(3) {
+        font-size: 12px;
+    }
+    #section5 .s5-header .right-h {
+        right: 60px;
+    }
 }
 
 /* 컴퓨터 높이
