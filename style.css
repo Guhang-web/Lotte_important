@@ -439,7 +439,7 @@ html body {
     height: 370px;
     margin-top: 30px;
     cursor: pointer;
-    transition: all 1s;
+    transition: all .5s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -804,7 +804,7 @@ html body {
 #section5 .s5-wrapper li img {
     width: 360px;
     height: 360px;
-    transition: all 1s;
+    transition: all .5s;
     cursor: pointer;
 }
 

@@ -324,7 +324,7 @@
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:768px) {
     #main {
         background-image: url('img/bg_M.jpg');
         background-position: center;
@@ -393,6 +393,15 @@
         font-size: 10px;
     }
 
+    #section2 {
+        display: flex;
+        align-items: center;
+    }
+    #section2 .s2-nav {
+        align-items: center;
+    height: auto;
+    }
+
     #section3 .right-side ul p {
         display: none;
     }
@@ -406,6 +415,10 @@
 
     #section3 .right-side li h3 {
         font-size: 14px;
+    }
+
+    #section5 .s5-header {
+        left:20px;
     }
 
     #footer .footer-gnb .footer-pro {
@@ -431,6 +444,10 @@
         width: 180px;
         height: 180px;
         margin: 10px;
+    }
+
+    #section2 .s2-nav .s2-csv:last-child {
+        display: none;
     }
 
     #section2 .s2-nav .s2-csv li h1 {
