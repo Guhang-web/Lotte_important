@@ -12,14 +12,10 @@
     border-bottom: 2px solid red;
 }
 #header .menu-box .menu-line:hover .line-up {
-    transform: rotate(45deg);
     transition: all 0.5s;
-    top: -10px;
 }
 
 #header .menu-box .menu-line:hover .line-down {
-    top: -10px;
-    transform: rotate(-45deg);
     transition: all 0.5s;
 }
 

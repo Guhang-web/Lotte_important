@@ -45,9 +45,24 @@ menu.addEventListener('click', function () {
         hidden.style.display = 'none';
     } else {
         hidden.style.display = 'block';
-
     }
+    let line1 = document.querySelector('.line-up');
+    let line2 = document.querySelector('.line-down');
+    if(line2.style.transform === 'rotate(45deg)',line1.style.transform === 'rotate(45deg)'){
+        line1.style.transform = 'rotate(0deg)'
+        line2.style.transform = 'rotate(0deg)'
+        
+    } else {
+        line1.style.transform = 'rotate(45deg)';
+        line2.style.transform = 'rotate(-45deg)';
+    }
+    if(line1.style.top === '-10px'){
+        line1.style.top = '0'
+    }else {line1.style.top = '-10px'
+}
 });
+//  hidden menu
+
 // main video 수정
 let prev = document.querySelector('.prev');
 let next = document.querySelector('.next');
