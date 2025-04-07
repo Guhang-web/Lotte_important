@@ -72,6 +72,7 @@
     #header #hidden-menu .hidden-gnb li:nth-child(1) {
         margin-left: 60px;
     }
+
     #section4 {
         gap: 0;
     }
@@ -118,6 +119,7 @@
     #section3 .right-side ul li {
         width: 100%;
     }
+
     #section4 .left-box {
         margin-left: 5%;
     }
@@ -139,9 +141,11 @@
     #header #hidden-menu .hidden-gnb li a {
         font-size: 14px;
     }
+
     #section4 .left-box {
         display: none;
     }
+
     #section4 .right-box {
         margin: 150px auto;
     }
@@ -164,6 +168,7 @@
 @media (max-width:1270px) {
     #header .header-gnb {
         justify-content: space-between;
+        height: 50px;
     }
 
     #header .header-gnb .inner {
@@ -219,6 +224,10 @@
         margin: 5px 10px;
     }
 
+    #section2 .s2-nav .s2-csv:nth-child(5) {
+        display: none;
+    }
+
     #section2 .s2-nav .s2-csv li h1 {
         margin: 0;
     }
@@ -236,9 +245,6 @@
         height: 90%;
     }
 
-    #section2 .s2-nav .s2-csv .s2-delay5 {
-        display: none;
-    }
 
     #section2 .s2-nav .s2-csv li div {
         width: 100%;
@@ -252,6 +258,7 @@
         width: 100%;
         height: 100vh;
         background-image: url('img/s3_bg.jpg');
+        position: relative;
     }
 
     #section3 .s3-video iframe {
@@ -260,12 +267,13 @@
 
     #section3 .right-side {
         justify-content: center;
+        top: 20px;
 
     }
 
     #section3 .right-side .left-gnb {
         width: 30%;
-        
+
         margin-right: 50px;
     }
 
@@ -278,15 +286,16 @@
         color: skyblue;
         font-size: 13px;
     }
-    
+
     #section3 .right-side .left-gnb li:nth-child(1) {
         margin-top: 35px;
     }
+
     #section3 .right-side li h3 {
         font-size: 20px;
         margin-top: 0;
     }
-    
+
     #footer .footer-wrapper .footer-left {
         left: 20px;
     }
@@ -341,6 +350,10 @@
         display: none;
     }
 
+    #header {
+        height: 300px;
+    }
+
     #header .header-gnb {
         margin: 0;
         width: 100%;
@@ -357,6 +370,7 @@
         position: absolute;
         left: 2%;
     }
+
     #header .menu-box {
         position: absolute;
         top: 0;
@@ -381,29 +395,33 @@
         top: 110px;
     }
 
-    
+
     #header #hidden-menu .hidden-gnb {
-        background: rgba(200, 200, 200, 0.3);
+        background: #000;
         height: 80vh;
         display: inline-block;
     }
+
+
     #header #hidden-menu .hidden-gnb li {
         margin-top: 30px;
         margin-left: 20px;
         display: flex;
-        flex-wrap: wrap;
         width: 100%;
+        height: 50px;
         text-align: left;
         overflow: hidden;
+        transition: height 1s;
     }
+
     #header #hidden-menu .hidden-gnb li h1 {
         font-size: 2em;
         margin-bottom: 20px;
     }
-
     #header #hidden-menu .hidden-gnb li a {
         font-size: 14px;
     }
+
     #mainBottom .customer {
         display: none;
     }
@@ -412,13 +430,18 @@
         display: flex;
         align-items: center;
     }
+
     #section2 .s2-nav {
         align-items: center;
-    height: auto;
+        height: auto;
     }
+
+    .move {
+        transform: translateY(0);
+    }
+
     #section2 .s2-nav .s2-csv li {
         transition: none;
-        bottom: -55px;
     }
 
     #section3 .right-side ul p {
@@ -426,6 +449,7 @@
     }
 
     #section3 .right-side {
+        top: 80px;
         left: -3%;
         width: 640px;
         height: 540px;
@@ -435,11 +459,13 @@
     #section3 .right-side li h3 {
         font-size: 14px;
     }
-    #section4 .right-box  {
+
+    #section4 .right-box {
         width: 100%;
         gap: 30px;
         margin-left: 13.5%;
     }
+
     #section4 .right-box li {
         width: 250px;
         height: 250px;
@@ -448,12 +474,13 @@
     }
 
     #section5 .s5-header {
-        left:20px;
+        left: 20px;
     }
+
     #section5 .s5-wrapper {
         gap: 80px;
     }
-    
+
     #section5 .s5-wrapper li:nth-child(1) {
         margin-left: 20px;
     }
@@ -477,11 +504,13 @@
         width: 100%;
         max-width: 600px;
     }
+
     #section2 .s2-nav .s2-csv {
         width: 180px;
         height: 180px;
         margin: 10px;
     }
+
     #section2 .s2-nav .s2-csv li {
         bottom: 0;
     }
@@ -506,34 +535,41 @@
         width: 100%;
         max-width: 500px;
     }
+
     #header #hidden-menu {
         height: 250px;
     }
 
-    
+
     #section3 {
-    display: none;
-    }  
+        display: none;
+    }
 }
+
 @media (max-width:412px) {
     #header .header-gnb {
         width: 100%;
         max-width: 412px;
     }
+
     #header .header-gnb .logo {
         left: 50%;
     }
+
     #mainBottom .customer {
         position: absolute;
         bottom: 0;
         right: 0;
     }
+
     #section5 .s5-header .left-h p:nth-child(2) {
         font-size: 3em;
     }
+
     #section5 .s5-header .left-h p:nth-child(3) {
         font-size: 12px;
     }
+
     #section5 .s5-header .right-h {
         right: 60px;
     }

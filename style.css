@@ -71,6 +71,7 @@ min-height: 800px;
     top: 0;
     left: 0;
     width: 100vw;
+    z-index: 500;
 }
 
 #header .header-gnb {
@@ -192,7 +193,7 @@ min-height: 800px;
     width: 100%;
     height: 800px;
     transform-origin: top;
-    z-index: 9000;
+    z-index: 9999;
 }
 
 #header #hidden-menu .hidden-gnb {
@@ -203,7 +204,7 @@ min-height: 800px;
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
     border-radius: 30px;
-
+    
 }
 
 #header #hidden-menu .hidden-gnb li {
@@ -375,6 +376,7 @@ min-height: 800px;
     position: relative;
     text-align: center;
     background-color: rgba(200, 200, 200, 0.1);
+    z-index: 10;
 }
 
 #section2 .s2-menu {
