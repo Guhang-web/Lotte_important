@@ -346,6 +346,7 @@
         width: 100%;
         max-width: 700px;
         top: 20px;
+        position: relative;
     }
 
     #header .header-gnb .logo {
@@ -354,7 +355,12 @@
         width: 70px;
         height: 53px;
         position: absolute;
-        left: 48%;
+        left: 2%;
+    }
+    #header .menu-box {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     #header .menu-box .language {
@@ -364,8 +370,6 @@
     #header .menu-box .menu-line span {
         margin-top: 30px;
         width: 40px;
-        position: absolute;
-        left: 0;
         margin-left: 20px;
     }
 
@@ -377,26 +381,31 @@
         top: 110px;
     }
 
-    #header #hidden-menu .hidden-gnb li {
-        margin-top: 30px;
-    }
-
+    
     #header #hidden-menu .hidden-gnb {
         background: rgba(200, 200, 200, 0.3);
-        height: 220px;
+        height: 80vh;
+        display: inline-block;
     }
-
-    #header #hidden-menu .hidden-gnb li:nth-child(1) {
-        margin-left: 0;
+    #header #hidden-menu .hidden-gnb li {
+        margin-top: 30px;
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: left;
+        overflow: hidden;
     }
-
     #header #hidden-menu .hidden-gnb li h1 {
-        font-size: 14px;
+        font-size: 2em;
         margin-bottom: 20px;
     }
 
     #header #hidden-menu .hidden-gnb li a {
-        font-size: 10px;
+        font-size: 14px;
+    }
+    #mainBottom .customer {
+        display: none;
     }
 
     #section2 {
@@ -442,7 +451,7 @@
         left:20px;
     }
     #section5 .s5-wrapper {
-        gap: 60px;
+        gap: 80px;
     }
     
     #section5 .s5-wrapper li:nth-child(1) {
@@ -496,9 +505,6 @@
     #header .header-gnb {
         width: 100%;
         max-width: 500px;
-    }
-    #header .header-gnb .logo {
-        left: 40%;
     }
     #header #hidden-menu {
         height: 250px;

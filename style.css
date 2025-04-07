@@ -67,9 +67,10 @@ min-height: 800px;
 
 /* -----------header---------- */
 #header {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100vw;
 }
 
 #header .header-gnb {
@@ -158,7 +159,7 @@ min-height: 800px;
 
 #header .menu-box .menu-line {
     width: 70px;
-    height: 25px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -221,6 +222,7 @@ min-height: 800px;
     color: #fff;
     margin-bottom: 60px;
     font-size: 2em;
+    cursor: pointer;
 }
 
 #header #hidden-menu .hidden-gnb li a {
