@@ -1,6 +1,6 @@
 ## 250405
 
-1. section1 영상 비율
+1. section1 영상 비율  ok
 2. Navbar 클릭으로
 3. 전일대비
 
