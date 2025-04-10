@@ -224,6 +224,12 @@ min-height: 800px;
     margin-bottom: 60px;
     font-size: 2em;
     cursor: pointer;
+    display: flex;
+}
+#header #hidden-menu .hidden-gnb li h1 svg{
+    display: none;
+width: 20px;
+height: 20px;
 }
 
 #header #hidden-menu .hidden-gnb li a {
