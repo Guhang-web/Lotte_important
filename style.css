@@ -37,15 +37,17 @@ html body {
 /* main */
 #main {
     position: relative;
-    width: 100%;
+    width: 102vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* -----------video----------- */
 #main video {
-min-width: 1920px;
-min-height: 800px;
+    min-width: 1920px;
+    min-height: 800px;
 }
+
 #L-main {
     position: absolute;
     top: 0;
@@ -204,7 +206,7 @@ min-height: 800px;
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
     border-radius: 30px;
-    
+
 }
 
 #header #hidden-menu .hidden-gnb li {
@@ -226,10 +228,11 @@ min-height: 800px;
     cursor: pointer;
     display: flex;
 }
-#header #hidden-menu .hidden-gnb li h1 svg{
+
+#header #hidden-menu .hidden-gnb li h1 svg {
     display: none;
-width: 20px;
-height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 #header #hidden-menu .hidden-gnb li a {
@@ -367,7 +370,7 @@ height: 20px;
 /* ---------Section */
 #section {
     display: inline-block;
-    width: 100%;
+    width: 102%;
     position: relative;
 
 }
@@ -496,7 +499,7 @@ height: 20px;
 
 /* -----------SECTION3 */
 #section3 {
-    width: 100%;
+    width: 101vw;
     height: 100%;
     position: relative;
 }

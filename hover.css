@@ -11,6 +11,7 @@
 #header .menu-box .language a:hover {
     border-bottom: 2px solid red;
 }
+
 #header .menu-box .menu-line:hover .line-up {
     transition: all 0.5s;
 }
@@ -18,21 +19,26 @@
 #header .menu-box .menu-line:hover .line-down {
     transition: all 0.5s;
 }
+/* 모바일 밑줄 */
+#header #hidden-menu .hidden-gnb li h1:hover::after {
+    width: 100%;
+}
 
 /* mainBottom*/
 #mainBottom .s1-right .page-btn svg:hover line {
     stroke: gray;
 }
 
-#mainBottom .s1-right .page-btn .page-c:hover{
+#mainBottom .s1-right .page-btn .page-c:hover {
     fill: #fff;
 }
 
 #mainBottom .s1-right .customer svg .page-ca:hover {
     transform: scale(1.6);
 }
+
 #mainBottom .s1-right .customer svg:hover text {
-fill: #fff;
+    fill: #fff;
 }
 
 /* section2 */
@@ -61,6 +67,7 @@ fill: #fff;
 #section5 .s5-wrapper .s5-gnb img:hover {
     border-radius: 50%;
 }
+
 #section5 .s5-header .right-h svg:hover .slider {
     stroke: #fff;
 }

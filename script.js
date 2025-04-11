@@ -64,22 +64,26 @@ menu.addEventListener('click', function () {
 //  hidden menu(모바일)
 // 모든 h1 요소 선택
 let hiddenClicks = document.querySelectorAll('.hiddenClick');
-let arrowClicks = document.querySelector('.size-6');
-
 // 이벤트 리스너 등록
 hiddenClicks.forEach(click => {
     click.addEventListener('click', function () {
         // 모든 li 초기화 (선택사항: 이전에 열린 것 닫기)
         document.querySelectorAll('.hiddenLi').forEach(li => {
             li.style.height = ''; // 기존 스타일 제거
-
         });
-
+        
         // 클릭된 h1의 부모 li 높이 설정
         let parentLi = this.closest('.hiddenLi');
         if (parentLi) {
             parentLi.style.height = '185px';
         }
+        // 모든 hiddenClick 요소에서 border-bottom 제거
+        hiddenClicks.forEach(c => {
+            c.style.borderBottom = '';
+        });
+
+        // 현재 클릭된 요소에 border-bottom 추가
+        this.style.borderBottom = '2px solid #fff';
     });
 });
 
