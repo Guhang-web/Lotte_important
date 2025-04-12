@@ -215,6 +215,7 @@ html body {
     flex-flow: column;
     padding: 0 50px;
     margin-top: 100px;
+    text-align: center;
 }
 
 #header #hidden-menu .hidden-gnb li:nth-child(1) {
@@ -226,7 +227,6 @@ html body {
     margin-bottom: 60px;
     font-size: 2em;
     cursor: pointer;
-    display: flex;
 }
 
 #header #hidden-menu .hidden-gnb li h1 svg {

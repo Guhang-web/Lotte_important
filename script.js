@@ -75,7 +75,7 @@ hiddenClicks.forEach(click => {
         // 클릭된 h1의 부모 li 높이 설정
         let parentLi = this.closest('.hiddenLi');
         if (parentLi) {
-            parentLi.style.height = '185px';
+            parentLi.style.height = '200px';
         }
         // 모든 hiddenClick 요소에서 border-bottom 제거
         hiddenClicks.forEach(c => {
