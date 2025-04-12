@@ -398,7 +398,8 @@
     #header #hidden-menu .hidden-gnb {
         background: #000;
         display: inline-block;
-
+        border-radius: 0;
+        height: 100vh;
     }
 
 
@@ -498,12 +499,15 @@
         gap: 30px;
         margin-left: 13.5%;
     }
-
+    
     #section4 .right-box li {
         width: 250px;
         height: 250px;
         margin: 0;
         border-radius: 20px;
+    }
+    #section4 .right-box li p:nth-child(3) {
+        margin-top: 80px;
     }
 
     #section5 .s5-header {
@@ -563,7 +567,7 @@
 
 }
 
-@media (max-width:500px) {
+/* @media (max-width:500px) {
     #header .header-gnb {
         width: 100%;
         max-width: 500px;
@@ -577,7 +581,7 @@
     #section3 {
         display: none;
     }
-}
+} */
 
 @media (max-width:412px) {
     #header .header-gnb {
