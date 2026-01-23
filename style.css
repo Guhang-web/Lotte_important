@@ -37,11 +37,16 @@ html body {
 /* main */
 #main {
     position: relative;
-    width: 100%;
+    width: 102vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* -----------video----------- */
+#main video {
+    min-width: 1920px;
+    min-height: 800px;
+}
 
 #L-main {
     position: absolute;
@@ -64,9 +69,11 @@ html body {
 
 /* -----------header---------- */
 #header {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100vw;
+    z-index: 500;
 }
 
 #header .header-gnb {
@@ -155,7 +162,7 @@ html body {
 
 #header .menu-box .menu-line {
     width: 70px;
-    height: 25px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -188,7 +195,7 @@ html body {
     width: 100%;
     height: 800px;
     transform-origin: top;
-    z-index: 9000;
+    z-index: 9999;
 }
 
 #header #hidden-menu .hidden-gnb {
@@ -208,6 +215,7 @@ html body {
     flex-flow: column;
     padding: 0 50px;
     margin-top: 100px;
+    text-align: center;
 }
 
 #header #hidden-menu .hidden-gnb li:nth-child(1) {
@@ -218,6 +226,13 @@ html body {
     color: #fff;
     margin-bottom: 60px;
     font-size: 2em;
+    cursor: pointer;
+}
+
+#header #hidden-menu .hidden-gnb li h1 svg {
+    display: none;
+    width: 20px;
+    height: 20px;
 }
 
 #header #hidden-menu .hidden-gnb li a {
@@ -286,7 +301,7 @@ html body {
     width: 15%;
     position: absolute;
     top: 0;
-    right: 15px;
+    right: 40px;
 }
 
 #mainBottom .page-btn svg {
@@ -355,7 +370,7 @@ html body {
 /* ---------Section */
 #section {
     display: inline-block;
-    width: 100%;
+    width: 102%;
     position: relative;
 
 }
@@ -370,6 +385,7 @@ html body {
     position: relative;
     text-align: center;
     background-color: rgba(200, 200, 200, 0.1);
+    z-index: 10;
 }
 
 #section2 .s2-menu {
@@ -439,7 +455,7 @@ html body {
     height: 370px;
     margin-top: 30px;
     cursor: pointer;
-    transition: all 1s;
+    transition: all .5s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -483,7 +499,7 @@ html body {
 
 /* -----------SECTION3 */
 #section3 {
-    width: 100%;
+    width: 101vw;
     height: 100%;
     position: relative;
 }
@@ -633,7 +649,7 @@ html body {
     height: 300px;
     background-color: #fff;
     margin-top: 180px;
-    margin-left: 140px;
+    margin-left: 8%;
 }
 
 #section4 .left-box .subheading {
@@ -804,7 +820,7 @@ html body {
 #section5 .s5-wrapper li img {
     width: 360px;
     height: 360px;
-    transition: all 1s;
+    transition: all .5s;
     cursor: pointer;
 }
 
