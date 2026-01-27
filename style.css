@@ -702,7 +702,13 @@ html body {
 /* section4 right-box */
 #section4 .right-box {
     margin-top: 180px;
+}
+
+#section4 .right-box ul{
     display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #section4 .right-box li {
@@ -711,6 +717,10 @@ html body {
     height: 300px;
     border: 2px solid #000;
     transition: all 1s;
+}
+.right-item > a { display: block; height: 100%; width: 100%; }
+#section4 .right-box .right-box1 p:nth-child(2){
+    color: #fff;
 }
 
 #section4 .right-box li p {
@@ -735,11 +745,11 @@ html body {
     margin-top: 100px;
 }
 
-#section4 .right-box .right-box1 li {
+#section4 .right-box .right-box1 {
     background-color: #000;
 }
 
-#section4 .right-box .right-box1 li p:nth-child(2) {
+#section4 .right-box .right-box2 {
     color: #fff;
 }
 
@@ -781,7 +791,7 @@ html body {
     position: absolute;
     top: 150px;
     right: 10px;
-    z-index: 100;
+    z-index: 9999;
 }
 
 

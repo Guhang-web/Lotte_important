@@ -47,21 +47,14 @@
 }
 
 /*  section4 */
-#section4 .right-box .right-box1 li:hover {
-    background-color: #fff;
-}
+.right-list { list-style: none; margin: 0; padding: 0; }
+.right-item > a { display: block; height: 100%; width: 100%; }
 
-#section4 .right-box .right-box1 li:hover p:nth-child(2) {
-    color: #000;
-}
+#section4 .right-box .right-box1:hover { background: #fff; }
+#section4 .right-box .right-box1:hover p:nth-of-type(2) { color: #000; }
 
-#section4 .right-box .right-box2 li:hover {
-    background-color: #000;
-}
-
-#section4 .right-box .right-box2 li:hover p:nth-child(2) {
-    color: #fff;
-}
+#section4 .right-box .right-box2:hover { background: #000; }
+#section4 .right-box .right-box2:hover p:nth-of-type(2) { color: #fff; }
 
 /* section5 */
 #section5 .s5-wrapper .s5-gnb img:hover {
