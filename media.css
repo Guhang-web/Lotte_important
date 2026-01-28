@@ -219,12 +219,12 @@
     }
 
     #section2 .s2-nav .s2-csv:nth-child(2) {
-        margin-top: 80px;
+        margin-top: 90px;
     }
 
     #section2 .s2-nav .s2-csv li {
-        width: 95%;
-        height: 90%;
+        width: 30vw;
+        height: 80%;
         margin-bottom: 10px;
     }
 
@@ -261,7 +261,7 @@
 
     #section3 .right-side .left-gnb {
         width: 30%;
-        
+
         margin-right: 50px;
     }
 
@@ -274,15 +274,16 @@
         color: skyblue;
         font-size: 13px;
     }
-    
+
     #section3 .right-side .left-gnb li:nth-child(1) {
         margin-top: 35px;
     }
+
     #section3 .right-side li h3 {
         font-size: 20px;
         margin-top: 0;
     }
-    
+
     #footer .footer-wrapper .footer-left {
         left: 30px;
     }
@@ -407,19 +408,21 @@
     #section3 .right-side li h3 {
         font-size: 14px;
     }
-     #section5 .s5-header {
+
+    #section5 .s5-header {
         left: 20px;
         width: 100%;
-     }
+    }
 
     #footer .footer-gnb .footer-pro {
         display: block;
         width: 100%;
     }
-    
+
     #footer .footer-gnb .footer-pro li:nth-child(2) {
         display: none;
     }
+
     #footer .footer-gnb .footer-pro li:nth-child(3) {
         font-size: 12px;
     }
@@ -434,24 +437,22 @@
     #header .header-gnb {
         width: 100%;
     }
+
     #section2 .s2-nav .s2-csv {
         width: 180px;
         height: 180px;
-        margin: 10px;
-    }
-
-    #section2 .s2-nav .s2-csv li h1 {
-        margin: 0;
+        margin: 20px;
     }
 
     #section2 .s2-nav .s2-csv li div {
-        margin-top: 10px;
         border-radius: 50%;
     }
-        #section2 .s2-nav .s2-csv:nth-child(1) {
-            margin-top: 200px;
-    }    #section2 .s2-nav .s2-csv:nth-child(2) {
-            margin-top: 200px;
+
+    #section2 .s2-nav .s2-csv:nth-child(1) {
+        margin-top: 100px;
+    }
+    #section2 .s2-nav .s2-csv:nth-child(2) {
+        margin-top: 100px;
     }
 
     #section3 .right-side {
@@ -467,124 +468,203 @@
     }
 
 }
+
 @media (max-width:550px) {
     html body {
-    overflow-y:scroll
+        overflow-y: scroll
+    }
 }
-}
+
 @media (max-width:500px) {
     #header .header-gnb {
         width: 100%;
     }
+
     #header .header-gnb .logo {
         left: 40%;
     }
+
     #header #hidden-menu {
         height: 250px;
     }
+      #section2 .s2-nav .s2-csv li {
+        height: 70%;
+    }
+      #section2 .s2-nav .s2-csv:nth-child(1) {
+        margin-top: 80px;
+    }
+    #section2 .s2-nav .s2-csv:nth-child(2) {
+        margin-top: 80px;
+    }
+#section2 .s2-nav .s2-csv li h1 {
+    font-size: 14px;
+}
     #section3 {
-    display: none;
-    }  
+        display: none;
+    }
+
     #section5 .s5-wrapper li:nth-child(1) {
         margin-left: 10px;
     }
 }
-@media (max-width:412px) {
+
+@media (max-width:432px) {
+ #section2 .s2-nav .s2-csv:nth-child(2) {
+        margin-top: 0;
+    }
+}
+@media (max-width:416px) {
     #header .header-gnb {
         width: 100%;
         max-width: 410px;
     }
-    #header #hidden-menu .hidden-gnb li{
+
+    #header #hidden-menu .hidden-gnb li {
         padding: 0;
         width: 80px;
     }
-    #header #hidden-menu .hidden-gnb li h1{
+
+    #header #hidden-menu .hidden-gnb li h1 {
         font-size: 10px;
     }
-    #header #hidden-menu .hidden-gnb li a{
+
+    #header #hidden-menu .hidden-gnb li a {
         font-size: 8px;
     }
+
     #mainBottom .customer {
         position: absolute;
         bottom: 0;
         right: 0;
     }
+
     #mainBottom .customer svg {
         margin: 50px 0;
     }
+
     #mainBottom img {
         margin: 110px 60px;
     }
-        #section2 .s2-nav .s2-csv {
-            height: 180px;
-        }
     
-        
+    #section2 .s2-nav .s2-csv:nth-child(1) {
+        margin-top: 0;
+    }
+
     #section5 .s5-header .left-h p:nth-child(2) {
         font-size: 3em;
     }
+
     #section5 .s5-header .left-h p:nth-child(3) {
         font-size: 12px;
     }
+
     #section5 .s5-wrapper li:nth-child(1) {
         margin-left: 20px;
     }
+
     #footer .footer-gnb .footer-pro {
         width: 340px;
     }
 }
-@media (max-width:370px) {
+
+@media (max-width:390px) {
     #header .header-gnb {
         width: 100%;
         max-width: 360px;
     }
-    #header #hidden-menu .hidden-gnb li{
+
+    #header #hidden-menu .hidden-gnb li {
         padding: 0;
         width: 70px;
     }
-    #header #hidden-menu .hidden-gnb li h1{
+
+    #header #hidden-menu .hidden-gnb li h1 {
         font-size: 10px;
     }
-    #header #hidden-menu .hidden-gnb li a{
+
+    #header #hidden-menu .hidden-gnb li a {
         font-size: 8px;
     }
+
     #mainBottom .customer {
         position: absolute;
         bottom: 0;
         right: 0;
     }
+
     #mainBottom .customer svg {
         margin: 50px 0;
     }
+
     #mainBottom img {
         margin: 110px 60px;
     }
-        #section2 .s2-nav .s2-csv {
-            height: 150px;
-        }
-        #section2 .s2-nav .s2-csv:nth-child(2) {
-            margin-top: 0;
+
+    #section2 .s2-nav .s2-csv {
+        height: 150px;
     }
-        
+
+    #section2 .s2-nav .s2-csv:nth-child(1) {
+        margin-top: 0;
+    }
+    #section2 .s2-nav .s2-csv:nth-child(2) {
+        margin-top: 0;
+    }
+
     #section5 .s5-header .left-h p:nth-child(2) {
         font-size: 3em;
     }
+
     #section5 .s5-header .left-h p:nth-child(3) {
         font-size: 12px;
     }
+
     #section5 .s5-wrapper li:nth-child(1) {
         margin-left: 0px;
     }
+    #section5 .s5-wrapper li img {
+        width: clamp(300px, 2vw, 350px);
+    }
+    #section5 .s5-wrapper li p {
+        margin-left: 10px;
+    }
+
     #footer .footer-gnb .footer-pro {
         width: 340px;
     }
 }
+
 @media (max-width:350px) {
     #header .header-gnb {
         width: 100%;
-        max-width: 344px;
+        max-width: 300px;
     }
+    #section5 .s5-header {
+        left: 0;
+    }
+    #section5 .s5-header .left-h{
+        margin-left: 20px;
+    }
+
     #footer .footer-gnb .footer-pro {
-        width: 320px;
+        width: 300px;
     }
+}
+
+@media (max-height:670px){
+        #section2 .s2-nav .s2-csv {
+            width: 150px;
+            margin: 0;
+        }
+         #section2 .s2-nav .s2-csv:nth-child(1) {
+            margin-top: 87px;
+            margin-left: 20px;
+         }
+         #section2 .s2-nav .s2-csv:nth-child(2) {
+        margin-top: 100px;
+    }
+         #section2 .s2-nav .s2-csv:nth-child(3) {
+        margin-left: 20px;
+    }
+
 }
