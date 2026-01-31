@@ -678,8 +678,3 @@
             margin-top: 80px;
          }
 }
-@media (max-width:415px) and (max-height:915px) {
-      #section2 .s2-nav .s2-csv:nth-child(1) {
-            margin-top: 40px;
-         }
-}

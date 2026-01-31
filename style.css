@@ -43,11 +43,6 @@ html body {
 }
 
 /* -----------video----------- */
-#main video {
-    min-width: 1920px;
-    min-height: 800px;
-}
-
 #L-main {
     position: absolute;
     top: 0;
