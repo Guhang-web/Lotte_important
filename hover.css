@@ -1,15 +1,11 @@
 /* header */
-#header .header-gnb .inner li:hover {
+#header .header-gnb .inner .inner-item:hover {
     height: 300px;
     animation: inner-ani 1s;
 }
 
 #header .header-gnb .inner .tag:hover {
     color: red;
-}
-
-#header .menu-box .language a:hover {
-    border-bottom: 2px solid red;
 }
 
 #header .menu-box .menu-line:hover .line-up {

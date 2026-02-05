@@ -68,6 +68,7 @@ html body {
     top: 0;
     left: 0;
     width: 100vw;
+    height: auto;
     z-index: 500;
 }
 
@@ -102,7 +103,7 @@ html body {
     font-weight: bold;
 }
 
-#header .header-gnb .inner li {
+#header .header-gnb .inner .inner-item {
     height: 30px;
     margin-left: 40px;
     overflow: hidden;
@@ -115,7 +116,7 @@ html body {
 }
 
 
-#header .header-gnb .inner ul {
+#header .header-gnb .inner .inner-gnb {
     display: flex;
     flex-flow: column;
     text-align: center;
@@ -125,10 +126,11 @@ html body {
     margin-top: 10px;
 }
 
-#header .header-gnb .inner ul a {
-    font-size: 13px;
-    color: #fff;
-    padding: 10px 10px;
+#header .header-gnb .inner .inner-gnb .header-item a {
+  font-size: 13px;
+  color: #fff;
+  padding: 10px 10px;
+  display: block;
 }
 
 /* header menu box */
@@ -136,25 +138,24 @@ html body {
     display: flex;
     position: relative;
     height: 25px;
+    margin-top: 10px;
 }
 
 #header .menu-box .language {
+    display: flex;
     margin-right: 40px;
     font-size: 12px;
     font-weight: bold;
     padding: 0;
     z-index: 80;
+    list-style: none; 
 }
-
-#header .menu-box .language a {
+#header .menu-box .language li {
     margin: 0 5px;
 }
-
-#header .menu-box .language a:nth-child(1) {
+#header .menu-box .language #languageKr {
     border-bottom: 2px solid red;
 }
-
-
 #header .menu-box .menu-line {
     width: 70px;
     height: 40px;
